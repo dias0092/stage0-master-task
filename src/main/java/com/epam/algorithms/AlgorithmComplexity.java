@@ -14,29 +14,36 @@ public class AlgorithmComplexity {
     /**
      * Return the linear search complexity if the element you are looking for is at the end of the array.
      */
-    public Complexity badLinerSearch() {
-        return null;
+    public static Complexity badLinerSearch() {
+        return Complexity.O_N;
     }
 
     /**
      * Return the complexity of accessing an array element by index.
      */
-    public Complexity arrayIndexItemAccess() {
-        return null;
+    public static Complexity arrayIndexItemAccess() {
+        return Complexity.O_1;
     }
 
     /**
      * Return the complexity of a binary search.
      */
-    public Complexity binarySorting() {
-        return null;
+    public static Complexity binarySorting() {
+        return Complexity.O_LOG_N;
     }
 
     /**
      * Return the complexity of the twoCycleSorting algorithm.
      */
-    public Complexity twoCycleSorting() {
-        return null;
+    public static Complexity twoCycleSorting() {
+        return Complexity.O_N_LOG_N;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Bad Linear Search: " + badLinerSearch());
+        System.out.println("Array Index Item Access: " + arrayIndexItemAccess());
+        System.out.println("Binary Sorting: " + binarySorting());
+        System.out.println("Two Cycle Sorting: " + twoCycleSorting());
     }
 
 }
