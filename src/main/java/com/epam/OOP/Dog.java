@@ -7,7 +7,7 @@ public class Dog extends Animal{
   
     @Override
     public String getDescription() {
-        return super.getDescription() + " Moreover, it has 4 legs and can run.";
+        return super.getDescription() + " This animal is mostly brown. It has 4 paws and a fur.";
     }
   
 }
