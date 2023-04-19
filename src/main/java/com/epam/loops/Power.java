@@ -7,11 +7,11 @@ public class Power {
         for (int i = 1; i <= power; i++) {
             result *= numberToPrint;
         }
-        System.out.println(numberToPrint + " to the power of " + power + " = " + result);
+        System.out.println(result);
     }
 
     public static void main(String[] args) {
-        new Power().printPower(10, 3);
+        new Power().printPower(0, 1);
     }
 
 }
